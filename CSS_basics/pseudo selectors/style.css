@@ -1,0 +1,26 @@
+.box {
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    padding: 10px ;
+    color: darkslategray;
+
+}
+
+.box:hover {
+    background-color: darkgreen;
+    color: beige;
+    font-weight: bold;
+}
+
+
+.box:active{
+    height: 100px;
+    width: 100px;
+    font-family: "Comic Sans MS";
+}
+
+
+input:focus{
+    font-size: 30pt;
+}
