@@ -1,0 +1,11 @@
+section > article > p {
+    background-color: aqua;
+}
+
+section > p {
+    background-color: darkorange;
+}
+
+section p {
+    font-family: "Comic Sans MS";
+}
