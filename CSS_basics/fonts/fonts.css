@@ -1,0 +1,22 @@
+#para1 {
+    /*font-size: 2em;*/
+    font-size: 10vh; /* 1vh = 1/100 of window height*/
+}
+#para2 {
+    /*font-family: monospace;*/ /*Each letter occupy same size*/
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#para3 {
+    font-style: italic;
+    /*font-weight: bold;*/
+    /*font-weight: lighter;*/
+    font-weight: bolder;
+}
+
+#para4 {
+    word-spacing: 10px;
+    letter-spacing: 20px;
+
+}
+
