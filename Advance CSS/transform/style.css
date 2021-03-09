@@ -1,0 +1,51 @@
+div {
+    height: 100px;
+    width: 100px;
+    color: beige;
+    background-color: indigo;
+    padding: 20px;
+    margin: 30px;
+}
+
+.one {
+    transform: scale(2,0.5);
+}
+.diffone {
+    height: 50px;
+    width: 200px;
+}
+
+.two {
+    transform: rotateY(120deg);
+/*    rotateZ = rotate*/
+/*    transform: rotateX(120deg);*/
+/*    transform: rotateZ(120deg);*/
+/*    transform: rotate(120deg);*/
+
+}
+
+.three {
+    transform: translate(20px,50px);
+}
+
+.four {
+    transform: translateX(500px) rotate(45deg);
+}
+.five {
+    transform: rotate(45deg) translateX(500px);
+}
+.six{
+    transform: skew(40deg);
+}
+.seven{
+    transform: skewX(-40deg);
+}
+.eight{
+    transform: skewX(-40deg) skewY(-33deg);
+}
+.nine{
+    transform: skew(30deg, 30deg);
+}
+.ten{
+    transform: skew(40deg, 40deg) rotate(80deg);
+}
