@@ -1,0 +1,49 @@
+.container {
+    margin: 100px;
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    /*font-size: 0px;*/
+    /*if font size = 0 then there would be no space btw the boxes */
+    /*animation: bounce 2s infinite;*/
+}
+
+.item {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: darkcyan;
+    border: solid black 2px;
+    display: inline-block;
+    animation: bounce 2s infinite;
+
+}
+.one {
+    /*ease-in -> starts' slow, ends' fast */
+    animation-timing-function: ease-in;
+}
+.two {
+    /*ease-out -> starts' fast, ends' slowly */
+    animation-timing-function: ease-out;
+}
+.three {
+    /*Linear -> constant*/
+    animation-timing-function: linear;
+}
+.four {
+    /*default : ease-in-out -> start's slow, middle's fast and end's slow */
+}
+
+
+@keyframes bounce {
+    0%{
+        background-color: darkorange;
+    }
+    50% {
+        transform: translateY(300px);
+    }
+    100% {
+        transform: rotate(90deg);
+
+    }
+}
