@@ -1,0 +1,61 @@
+.container {
+    height: auto;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    z-index: 1;
+    background-color: linen;
+
+}
+
+.item {
+    height: 50px;
+    width: 50px;
+    z-index: 3;
+    margin: 10px;
+    background-color: mediumslateblue;
+    color: white;
+}
+
+.container.one > .item.four {
+    background-color: dodgerblue;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /*right: 100px;*/
+}
+.one > .three {
+    position: relative;
+    z-index: 5;
+}
+.container.one > .item.five {
+    background-color: brown;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    /*right: 100px;*/
+}
+
+/*.one > .four {*/
+/*    background-color: dodgerblue;*/
+/*}*/
+
+.container > .one {
+    position: sticky;
+    top: 30px;
+}
+
+.container > .two {
+    position: sticky;
+    z-index: 1;
+    top: 30px;
+    bottom: 20px;
+}
+
+.item:nth-child(5n){
+    background-color: lightseagreen;
+}
+
+.container:nth-child(2n){
+    background-color: aqua;
+}
