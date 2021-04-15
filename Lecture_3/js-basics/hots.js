@@ -4,7 +4,9 @@ function greet(name){
 function createGreeter(greeting){
 
     function greet(name){
+        // we treat name as a string
         // console.log(greeting, name)
+        // we treat name as a function
         console.log(greeting, name())
     }
 
