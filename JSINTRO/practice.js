@@ -5,6 +5,9 @@ let e = 40;  // Block scope
 
 let b = [1,2,3,4,5];
 
+// sqrt_n(10); // Hoisting
+SquareRoot(10);
+
 function fun() {
     let a = 5;
     if(a == 5){
@@ -21,3 +24,18 @@ function fun() {
 fun();
 
 console.log("Global",f);
+
+function SquareRoot(n) {
+    console.log("In first sqrt function");
+    // console.log(Math.sqrt(n));
+    return typeof Math.sqrt(n);
+}
+
+// Function Hoisting
+
+var sqrt_n = function (){
+    console.log("In second sqrt function");
+    return undefined;
+}
+SquareRoot(10);
+sqrt_n(10);
