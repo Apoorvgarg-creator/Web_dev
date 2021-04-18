@@ -39,3 +39,25 @@ var sqrt_n = function (){
 }
 SquareRoot(10);
 sqrt_n(10);
+
+let arr = ['Apple','Mango','Guava'];
+arr.length;
+arr["length"];
+arr[0]
+
+
+for (let i=0;i<arr.length;i++){
+    console.log(arr[i]);
+}
+
+arr.push("banana");  // Insert element at the end
+arr.pop(); // remove from last
+arr.indexOf("Mango"); // gives index of
+arr.shift(); // remove from front
+arr.unshift("kiwi"); // insert at front
+
+if(arr[0]=="Apple"){
+    console.log("Apple");
+}else{
+    console.log("First element",arr[0]);
+}
