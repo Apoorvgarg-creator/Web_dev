@@ -7,7 +7,7 @@ let b = [1,2,3,4,5];
 
 // sqrt_n(10); // Hoisting
 SquareRoot(10);
-
+// Function declaration
 function fun() {
     let a = 5;
     if(a == 5){
@@ -32,7 +32,7 @@ function SquareRoot(n) {
 }
 
 // Function Hoisting
-
+// Function expression
 var sqrt_n = function (){
     console.log("In second sqrt function");
     return undefined;
