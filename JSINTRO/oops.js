@@ -67,4 +67,4 @@ let Fruitexpression = class  {
 };
 
 let kiwiexp = new Fruitexpression("sour","green");
-console.log(kiwiexp.taste);
+console.log(kiwiexp.color);
