@@ -10,3 +10,4 @@ Q. In which places in code can we NOT use "this" ?
 
 
 # Javascript --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
+# equality and sameness --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
