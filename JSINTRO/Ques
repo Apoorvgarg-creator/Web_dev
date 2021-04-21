@@ -1,0 +1,12 @@
+# Answer in refer to the context of C++/Java
+
+Q. What does the keyword "this " mean, what does it refer to ?
+--> "This" keyword is used to access the object inside the same object.
+For example, if we want to use class object data member inside the class, so we can use them with the help of "this"
+keyword. basically scope of the class can be access through "this" keyword. it refers to object instance.
+Q. In which places in code can we NOT use "this" ?
+-->
+
+
+
+# Javascript --> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
