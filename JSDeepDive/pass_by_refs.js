@@ -36,5 +36,5 @@ changeWinner(quiddtichWinners);
 console.log("Now the winner is "+ quiddtichWinners)
 
 // this is also an example of pass by value
-// javascript always passes by value
+// javascript always passes object as value
 // when an object is passed, though value is passed but object is a reference hence values changed are affected
