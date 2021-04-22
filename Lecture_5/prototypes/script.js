@@ -13,7 +13,6 @@ let fun = function (){      // 3 levels from null
 
 console.log(typeof String) // function
 
-
 console.log(typeof String(true))
 console.log('======= Types ========')
 console.log('typeof Sring:', typeof String)
@@ -36,7 +35,6 @@ console.log(str.__proto__.__proto__.__proto__)
 console.log(obj.__proto__.__proto__)
 console.log(fun.__proto__.__proto__.__proto__)
 
-
 console.log('======= proto chain ========')
 console.log(str.__proto__.__proto__ == obj.__proto__)
 console.log(num.__proto__.__proto__ == obj.__proto__)
@@ -47,8 +45,6 @@ console.log(fun.__proto__.__proto__ == obj.__proto__)
 // Everything indirectly inherits from the same thing
 // that obj is inherited from
 // i.e. In javascript, everything is essentially an Object
-
-
 
 console.log('======== Prototypes =======')
 console.log(obj.__proto__ == Object.prototype)
