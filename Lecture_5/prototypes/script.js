@@ -72,5 +72,31 @@ console.log('Object.__proto__:',Object.__proto__)
 console.log('Object.prototype:',Object.prototype)
 console.log('Object.prototype.__proto__:',Object.prototype.__proto__)
 
-console.log(Object.__proto__. == Object.prototype)  //false
+console.log(Object.__proto__ == Object.prototype)  //false
 console.log(Object.__proto__.__proto__ == Object.prototype) //true
+
+let str1 = "Apoorv Garg"
+
+let str2 = "Appy Garg"
+
+console.log(str1.charAt == str2.charAt) // true, this represents that they bith refer to the same function
+
+
+console.log(str1.__proto__.charAt)
+console.log(str1.charAt)
+
+
+str1.charAt = function () {
+    return 'x';
+}  // does not effect
+
+console.log(str1.charAt(2))
+// BUT -->
+
+String.prototype.charAt = function () {
+    return 'x';
+}
+console.log(str1.charAt(2))
+
+//String.prototype contains all default string functions
+// like charAT, indexof, substring, slice etc
