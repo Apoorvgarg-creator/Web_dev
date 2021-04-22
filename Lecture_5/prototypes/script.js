@@ -69,5 +69,8 @@ let x = Object.create(Boolean.prototype)
 console.log(x.__proto__ == bool.__proto__)
 
 console.log('Object.__proto__:',Object.__proto__)
+console.log('Object.prototype:',Object.prototype)
 console.log('Object.prototype.__proto__:',Object.prototype.__proto__)
 
+console.log(Object.__proto__. == Object.prototype)  //false
+console.log(Object.__proto__.__proto__ == Object.prototype) //true
