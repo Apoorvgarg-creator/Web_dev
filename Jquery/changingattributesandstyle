@@ -1,0 +1,37 @@
+$('#one').text('ooooo')
+
+
+let o = $('#one')
+
+// case of polymorphism -->
+
+o.text() // when no argument is passed, then this function simply returns the text of o
+
+o.text('hello world') // when string is passed, then this function changes the text inside of o to the argument string
+
+
+o.html()
+"hello world"
+
+o.html('hello <b>World</b>')
+
+o.attr('height',200)
+// After running the above codes on console, change in index.html  --> <div id="one" class="item" height="200">hello <b>World</b></div>
+
+o.attr('height')
+"200"
+
+o.attr('height', null) // delete the attribute height
+o.attr('height', undefined) // delete the attribute height
+
+o.attr('style','color:red') // color of the text becomes red
+
+o.css('color')
+"rgb(255, 0, 0)"
+
+o.css('color','blue') // changes the color from red to blue
+o.css('font-size','20pt') // change the font size to 20pt
+
+// since each query was returning the same object, we can cascade multiple operation together -->
+
+o.css('font-size','20pt').attr('width',200).css('color','orange')//
