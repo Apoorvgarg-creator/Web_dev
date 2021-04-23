@@ -1,0 +1,22 @@
+codes written on console of the browser -->
+
+NBSP means: Non-Breaking Space
+
+$('div').html('Hello World')
+Output --> jQuery.fn.init [div, prevObject: jQuery.fn.init(1)]
+
+
+$('div').text('something else')
+jQuery.fn.init(6) [div#one.item, div.item, div#three, div.item, div, div.item, prevObject: jQuery.fn.init(1)]
+
+$('div.item').text('another')
+jQuery.fn.init(4) [div#one.item, div.item, div.item, div.item, prevObject: jQuery.fn.init(1)]
+
+$('#one').text('id: first item')
+jQuery.fn.init [div#one.item]
+
+document.getElementById('one') == $('#one')
+false
+
+$('#one')[0] == document.getElementById('one')
+true
