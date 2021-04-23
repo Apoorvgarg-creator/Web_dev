@@ -99,4 +99,14 @@ String.prototype.charAt = function () {
 console.log(str1.charAt(2))
 
 //String.prototype contains all default string functions
-// like charAT, indexof, substring, slice etc
+// like charAT, indexof, substring, slice etc.
+
+Array.prototype.joinOriginal = Array.prototype.join
+Array.prototype.join = function (){
+    console.log("join called on :",this)
+    return this.joinOriginal(... arguments)
+}
+
+let  l = [123,235,24,346]
+
+l.join(',')
