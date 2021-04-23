@@ -6,13 +6,20 @@ window.onload = function () {
     print.onclick = function () {
         let start = new Date().getTime();
         let N = parseInt(num.value)
-        let listHTML = ''
-        for(let i=0;i<= N;i++){
-            listHTML += '<li>' + i + '</li>'
-            // list.innerHTML += '<li>' + i + '</li>' // Very low performance of the website !!!!
-            // innerHTML reduces the performance if you uses frequently !!
+        // let listHTML = ''
+        // for(let i=0;i<= N;i++){
+        //     listHTML += '<li>' + i + '</li>'
+        //     // list.innerHTML += '<li>' + i + '</li>' // Very low performance of the website !!!!
+        //     // innerHTML reduces the performance if you uses frequently !!
+        // }
+        // list.innerHTML = listHTML
+
+        // Another Solution
+        for(let i =1; i<=N;i++){
+            let item = document.createElement('li')
+            item.innerText = i
+            list.appendChild(item)
         }
-        list.innerHTML = listHTML
         let end = new Date().getTime();
         let ans = end - start;
         console.log(ans);
