@@ -1,0 +1,22 @@
+$(() => {
+    let list = $('#people')
+    let page = 1
+    $('#fetch').click(() => {
+        console.log(page)
+      $.get(`https://reqres.in/api/users?page=${page}`, (data) =>{
+
+          for(let p of data.data){
+              list.append(
+                  $(`<li>
+                <img width="100" src="${p.avatar}">
+                ${p.first_name} ${p.last_name}
+                </li>`)
+              )
+          }
+      })
+        page++;
+
+    })
+})
+
+// xhr request --> xml http request
