@@ -19,7 +19,11 @@ function helloSayer(times,name){
 //     })
 // })
 
+// helloSayer(1,'Concurrent:').then(
+// helloSayer(3,'Appy').then(helloSayer(2,'Naruto').then(helloSayer(2,'luffy'))))
+
+
 // Solution -->
-helloSayer(3,'Appy')
+helloSayer(1,'Serial:').then(() =>helloSayer(3,'Appy')
     .then(() => helloSayer(2,'Naruto')
-        .then(() => helloSayer(3,'luffy')))
+        .then(() => helloSayer(3,'luffy'))))
