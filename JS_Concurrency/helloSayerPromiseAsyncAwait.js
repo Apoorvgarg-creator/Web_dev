@@ -21,3 +21,4 @@ async function task () {
 }
 
 task()
+helloSayer(5,'zoro')
