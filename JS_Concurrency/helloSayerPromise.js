@@ -18,12 +18,12 @@ function helloSayer(times,name){
 //         helloSayer(3,'luffy')
 //     })
 // })
-
+// Concurrent -->
 // helloSayer(1,'Concurrent:').then(
 // helloSayer(3,'Appy').then(helloSayer(2,'Naruto').then(helloSayer(2,'luffy'))))
 
 
-// Solution -->
+// Sequentially -->
 helloSayer(1,'Serial:').then(() =>helloSayer(3,'Appy')
     .then(() => helloSayer(2,'Naruto')
         .then(() => helloSayer(3,'luffy'))))
