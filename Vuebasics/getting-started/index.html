@@ -7,14 +7,16 @@
 </head>
 <body>
 <div id="app">
-    <p>{{ para }}</p>
+    <input placeholder="username" v-model="username">
+    <p> Hello {{ username }}</p>
 </div>
 <script>
     let app = new Vue ({
         el : '#app',
         data : {
             // para : 'This is a paragraph'
-            para : (new Date().getTime())
+            para : (new Date().getTime()),
+            username: ''
         }
     })
 </script>
