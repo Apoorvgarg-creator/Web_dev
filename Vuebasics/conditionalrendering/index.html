@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+<div id="app">
+<!--  <button v-on:click="incrCount">click</button>-->
+  <button @click="incrCount">click</button>
+  <span>{{count}}</span>
+  <div v-if="isEven">Even</div>
+  <div v-else="isEven">Odd</div>
+  <div v-show="isEven">Number is Even</div>
+  <div v-show="!isEven">Number is Odd</div>
+
+</div>
+<script>
+  let app = new Vue ({
+    el : '#app',
+    data : {
+      count: 0,
+      isEven : true
+    },
+    methods : {
+      incrCount() {
+        this.count++
+        this.isEven = this.count % 2 == 0 ?true: false
+      }
+    }
+
+  })
+</script>
+</body>
+</html>
