@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+<div id="app">
+  <input v-model="newtask">
+  <input v-model="priority">
+  <button @click="addtask">Add</button>
+  <ul>
+<!--    <li> {{tasks[0]}}</li>-->
+<!--    <li> {{tasks[1]}}</li>-->
+<!--    <li> {{tasks[2]}}</li>-->
+<!--    Better Method -->
+    <li v-for="task in tasks">{{task.name}}</li>
+  </ul>
+</div>
+<script>
+  let app = new Vue ({
+    el : '#app',
+    data : {
+      tasks: [
+        {name:'first task',
+        priority:1},
+        {name:'second task',
+          priority:3},
+        {name:'third task',
+          priority:2}],
+      newtask : ''
+    },
+    methods : {
+      addtask() {
+        this.tasks.push({name: this.newtask, priority: parseInt(this.priority)})
+      }
+    }
+
+  })
+</script>
+</body>
+</html>
