@@ -1,13 +1,13 @@
 import React from 'react'
 import Square from './Square'
 
-
-export default function Board() {
+// Mechanism of passing data is called Props
+export default function Board(props) {
     return (
     <div>
         <div className="board-row">
             {/*Self closing syntax is called jssx syntax*/}
-            <Square/>
+            <Square insidevalue={props.value}/>
             <Square/>
             <Square/>
         </div>
