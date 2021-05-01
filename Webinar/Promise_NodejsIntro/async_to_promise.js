@@ -21,4 +21,6 @@ let someTaskPromise = function (){
 someTaskPromise()
     .then(() =>{
     console.log('After task is complete')
-});
+}).catch((err) => {
+    console.log(Error('User defined error'))
+})
