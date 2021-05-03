@@ -13,7 +13,7 @@ CREATE DATABASE sampledb1;
 ```
 
 ```sql
-CREATE user sampleuser1 IDENTITIFIED  by 'SamplePass@1';
+CREATE user sampleuser1 identified  by 'SamplePass@1';
 ```
 
 ```sql
