@@ -37,3 +37,5 @@ const seed = async () => {
         console.error(e)
     }
 }
+
+seed();
