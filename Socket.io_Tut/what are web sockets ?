@@ -1,0 +1,7 @@
+What are web socket ?
+--> they help us doing in real time communication
+
+we will be using socket.io(javascript library) to implement socket both on front end and back end
+
+server can initiate communication with client as well through sockets
+
