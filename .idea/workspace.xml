@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4f1c944-1879-4ddc-8cdf-de89c4b95bd4" name="Default Changelist" comment="sql query to get started with the database">
+      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/batchCodegen/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/batchCodegen/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/batchCodegen/src/connection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/batchCodegen/src/models.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/getting_started/create_model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/getting_started/insert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/getting_started/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/getting_started/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Webinar/Promise_NodejsIntro/Assignment_1/Copy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Webinar/Promise_NodejsIntro/Assignment_1/Data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mongobasics/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/Mongobasics/data/WiredTiger.turtle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mongobasics/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/Mongobasics/data/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mongobasics/data/diagnostic.data/metrics.2021-04-28T19-05-04Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/Mongobasics/data/diagnostic.data/metrics.2021-04-28T19-05-04Z-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mongobasics/data/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/Mongobasics/data/diagnostic.data/metrics.interim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mongobasics/data/index-6--6801421162610855509.wt" beforeDir="false" afterPath="$PROJECT_DIR$/Mongobasics/data/index-6--6801421162610855509.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mongobasics/data/journal/WiredTigerLog.0000000001" beforeDir="false" afterPath="$PROJECT_DIR$/Mongobasics/data/journal/WiredTigerLog.0000000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sequelize_TUT/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Sequelize_TUT/getting_started/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sequelize_TUT/connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sequelize_TUT/getting_started/connect.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1pvSMSSJFUoLMbMO2yJ8qlMyXHZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JS_Concurrency" />
+      <recent name="$PROJECT_DIR$/Jquery" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Sequelize_TUT/getting_started" />
+      <recent name="$PROJECT_DIR$/ExpressJS/express-intro/Files" />
+      <recent name="$PROJECT_DIR$/Lecture_4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.connect.js">
+    <configuration name="Copy.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Webinar/Promise_NodejsIntro/Assignment_1/Copy.js" working-dir="$PROJECT_DIR$/Webinar/Promise_NodejsIntro/Assignment_1">
+      <method v="2" />
+    </configuration>
+    <configuration name="connect.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Sequelize_TUT/getting_started/connect.js" working-dir="$PROJECT_DIR$/Sequelize_TUT">
+      <method v="2" />
+    </configuration>
+    <configuration name="create_model.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Sequelize_TUT/getting_started/create_model.js" working-dir="$PROJECT_DIR$/Sequelize_TUT">
+      <method v="2" />
+    </configuration>
+    <configuration name="promise_all.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Webinar/Promise_NodejsIntro/promise_all.js" working-dir="$PROJECT_DIR$/Webinar/Promise_NodejsIntro">
+      <method v="2" />
+    </configuration>
+    <configuration name="query.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Sequelize_TUT/getting_started/query.js" working-dir="$PROJECT_DIR$/Sequelize_TUT">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.connect.js" />
+        <item itemvalue="Node.js.query.js" />
+        <item itemvalue="Node.js.create_model.js" />
+        <item itemvalue="Node.js.Copy.js" />
+        <item itemvalue="Node.js.promise_all.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4f1c944-1879-4ddc-8cdf-de89c4b95bd4" name="Default Changelist" comment="" />
+      <created>1616062023583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616062023583</updated>
+      <workItem from="1616062024790" duration="396000" />
+      <workItem from="1616062444140" duration="2112000" />
+      <workItem from="1616139999714" duration="6654000" />
+      <workItem from="1617614080439" duration="1509000" />
+      <workItem from="1618042258865" duration="105000" />
+      <workItem from="1618042402391" duration="415000" />
+      <workItem from="1618486126141" duration="10200000" />
+      <workItem from="1618581733379" duration="73000" />
+      <workItem from="1618598556698" duration="1200000" />
+      <workItem from="1618747279248" duration="2562000" />
+      <workItem from="1618835774657" duration="3619000" />
+      <workItem from="1618907950294" duration="5840000" />
+      <workItem from="1619009145416" duration="5932000" />
+      <workItem from="1619032158455" duration="3069000" />
+      <workItem from="1619082499799" duration="5078000" />
+      <workItem from="1619098778026" duration="5716000" />
+      <workItem from="1619117033552" duration="1908000" />
+      <workItem from="1619167148390" duration="2789000" />
+      <workItem from="1619177855441" duration="102000" />
+      <workItem from="1619178372774" duration="18370000" />
+      <workItem from="1619264697963" duration="8099000" />
+      <workItem from="1619351481858" duration="12100000" />
+      <workItem from="1619379517219" duration="3818000" />
+      <workItem from="1619429546697" duration="4167000" />
+      <workItem from="1619547848713" duration="130000" />
+      <workItem from="1619562067100" duration="216000" />
+      <workItem from="1619563398097" duration="742000" />
+      <workItem from="1619607825687" duration="1120000" />
+      <workItem from="1619613196413" duration="9956000" />
+      <workItem from="1619633071197" duration="344000" />
+      <workItem from="1619636582347" duration="1918000" />
+      <workItem from="1619694383957" duration="256000" />
+      <workItem from="1619694652092" duration="1013000" />
+      <workItem from="1619722328031" duration="1825000" />
+      <workItem from="1619781620027" duration="1379000" />
+      <workItem from="1619816924609" duration="61000" />
+      <workItem from="1619817013827" duration="3395000" />
+      <workItem from="1619861044997" duration="405000" />
+      <workItem from="1619872096501" duration="6481000" />
+      <workItem from="1619887773029" duration="29000" />
+      <workItem from="1619887817335" duration="605000" />
+      <workItem from="1619902112833" duration="3965000" />
+      <workItem from="1619962256265" duration="3126000" />
+      <workItem from="1620048541607" duration="78000" />
+      <workItem from="1620048709004" duration="22000" />
+    </task>
+    <task id="LOCAL-00056" summary="make a object with the help of &quot;new&quot; keyword out of function">
+      <created>1619210864675</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1619210864676</updated>
+    </task>
+    <task id="LOCAL-00057" summary="inheritance in javascript">
+      <created>1619211244550</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1619211244550</updated>
+    </task>
+    <task id="LOCAL-00058" summary="proto chain discussed">
+      <created>1619264820800</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1619264820800</updated>
+    </task>
+    <task id="LOCAL-00059" summary="make a function in the prototype of a object">
+      <created>1619265545799</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1619265545799</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Ecmascript 6 have provided a keyword &quot;class&quot; to make objects without the use of &quot;new&quot; in functions">
+      <created>1619267325038</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1619267325038</updated>
+    </task>
+    <task id="LOCAL-00061" summary="callbacks used to achieve serializability">
+      <created>1619271648383</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1619271648383</updated>
+    </task>
+    <task id="LOCAL-00062" summary="concurrency on a single thread">
+      <created>1619271929907</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1619271929907</updated>
+    </task>
+    <task id="LOCAL-00063" summary="dealing with concurrency and serializability with the help of promises">
+      <created>1619272363576</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1619272363576</updated>
+    </task>
+    <task id="LOCAL-00064" summary="dealing with concurrency and serializability with the help of promises">
+      <created>1619272523563</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1619272523563</updated>
+    </task>
+    <task id="LOCAL-00065" summary="async and await use to improve the tidiness">
+      <created>1619289307633</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1619289307633</updated>
+    </task>
+    <task id="LOCAL-00066" summary="comments improved">
+      <created>1619289331573</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1619289331573</updated>
+    </task>
+    <task id="LOCAL-00067" summary="await and async">
+      <created>1619289490883</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1619289490883</updated>
+    </task>
+    <task id="LOCAL-00068" summary="File rename">
+      <created>1619289563423</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1619289563423</updated>
+    </task>
+    <task id="LOCAL-00069" summary="batch task using Promise.all()">
+      <created>1619290111659</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1619290111659</updated>
+    </task>
+    <task id="LOCAL-00070" summary="PROJECT:TodoList with Jquery">
+      <created>1619375610255</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1619375610256</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Library mapping.xml saved">
+      <created>1619375633132</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1619375633132</updated>
+    </task>
+    <task id="LOCAL-00072" summary="express js intro along with get and post method introduction and path paramters">
+      <created>1619430555611</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1619430555611</updated>
+    </task>
+    <task id="LOCAL-00073" summary="handling asynchronization through promise function">
+      <created>1619430611954</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1619430611954</updated>
+    </task>
+    <task id="LOCAL-00074" summary="package files for expressjs">
+      <created>1619430670238</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1619430670238</updated>
+    </task>
+    <task id="LOCAL-00075" summary="package files for expressjs">
+      <created>1619430775579</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1619430775579</updated>
+    </task>
+    <task id="LOCAL-00076" summary="server side rendered TodoList">
+      <created>1619433021200</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1619433021200</updated>
+    </task>
+    <task id="LOCAL-00077" summary="npm install hbs">
+      <created>1619433293326</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1619433293326</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Casino Slot machine basic">
+      <created>1619618895413</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1619618895414</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Mongo basic Tutorials :&#10;Connect to the database, write operation">
+      <created>1619638407374</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1619638407375</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Package file added">
+      <created>1619638453780</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1619638453780</updated>
+    </task>
+    <task id="LOCAL-00081" summary="MongoDb read query and operators">
+      <created>1619695802629</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1619695802629</updated>
+    </task>
+    <task id="LOCAL-00082" summary="changes in database">
+      <created>1619695824823</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1619695824823</updated>
+    </task>
+    <task id="LOCAL-00083" summary="changes in database">
+      <created>1619695848042</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1619695848042</updated>
+    </task>
+    <task id="LOCAL-00084" summary="getting started with vue">
+      <created>1619722525095</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1619722525095</updated>
+    </task>
+    <task id="LOCAL-00085" summary="database">
+      <created>1619722548606</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1619722548606</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Two way data binding">
+      <created>1619722639943</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1619722639943</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Conditional rendering">
+      <created>1619723416501</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1619723416501</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Rendering array with loops">
+      <created>1619724008432</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1619724008432</updated>
+    </task>
+    <task id="LOCAL-00089" summary="starting with the project TIC-TAC-TOE">
+      <created>1619783690248</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1619783690249</updated>
+    </task>
+    <task id="LOCAL-00090" summary="CSS copied from Coding-block-archives">
+      <created>1619817103204</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1619817103205</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Square component">
+      <created>1619817253236</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1619817253236</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Board component">
+      <created>1619818763954</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1619818763954</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Game component">
+      <created>1619818773971</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1619818773971</updated>
+    </task>
+    <task id="LOCAL-00094" summary="UI implemented">
+      <created>1619818790144</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1619818790144</updated>
+    </task>
+    <task id="LOCAL-00095" summary="props system explained">
+      <created>1619820486482</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1619820486482</updated>
+    </task>
+    <task id="LOCAL-00096" summary="package file uploaded">
+      <created>1619820501317</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1619820501317</updated>
+    </task>
+    <task id="LOCAL-00097" summary="database file uploaded">
+      <created>1619820514910</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1619820514910</updated>
+    </task>
+    <task id="LOCAL-00098" summary="promises tutorial">
+      <created>1619878936535</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1619878936536</updated>
+    </task>
+    <task id="LOCAL-00099" summary="promise.all">
+      <created>1619880984518</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1619880984519</updated>
+    </task>
+    <task id="LOCAL-00100" summary="nodejs_intro">
+      <created>1619887190488</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1619887190488</updated>
+    </task>
+    <task id="LOCAL-00101" summary="how browser shares code among themselves">
+      <created>1619887215962</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1619887215962</updated>
+    </task>
+    <task id="LOCAL-00102" summary="read and write file through file system lib of node">
+      <created>1619888094707</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1619888094707</updated>
+    </task>
+    <task id="LOCAL-00103" summary="connecting sequelize with our sample database">
+      <created>1619903945685</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1619903945685</updated>
+    </task>
+    <task id="LOCAL-00104" summary="sql query to get started with the database">
+      <created>1619904013174</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1619904013174</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Mongo basic Tutorials :&#10;Connect to the database, write operation" />
+    <MESSAGE value="Package file added" />
+    <MESSAGE value="MongoDb read query and operators" />
+    <MESSAGE value="changes in database" />
+    <MESSAGE value="getting started with vue" />
+    <MESSAGE value="database" />
+    <MESSAGE value="Two way data binding" />
+    <MESSAGE value="Conditional rendering" />
+    <MESSAGE value="Rendering array with loops" />
+    <MESSAGE value="starting with the project TIC-TAC-TOE" />
+    <MESSAGE value="CSS copied from Coding-block-archives" />
+    <MESSAGE value="Square component" />
+    <MESSAGE value="Board component" />
+    <MESSAGE value="Game component" />
+    <MESSAGE value="UI implemented" />
+    <MESSAGE value="props system explained" />
+    <MESSAGE value="package file uploaded" />
+    <MESSAGE value="database file uploaded" />
+    <MESSAGE value="promises tutorial" />
+    <MESSAGE value="promise.all" />
+    <MESSAGE value="nodejs_intro" />
+    <MESSAGE value="how browser shares code among themselves" />
+    <MESSAGE value="read and write file through file system lib of node" />
+    <MESSAGE value="connecting sequelize with our sample database" />
+    <MESSAGE value="sql query to get started with the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql query to get started with the database" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
