@@ -1,6 +1,6 @@
 let socket = io()
 // console.log(socket.id)
-
+console.log('socket script1:',socket)
 let boomBtn = document.getElementById('boom')
 
 // client to server
