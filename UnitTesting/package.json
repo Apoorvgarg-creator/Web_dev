@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js",
+    "cover": "nyc --reporter=html --reporter=text mocha"
+  }
+}
