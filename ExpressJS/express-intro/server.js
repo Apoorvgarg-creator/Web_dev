@@ -2,7 +2,7 @@ const express = require('express')
 
 const app = express()
 
-app.use(express.urlencoded({extendec: true}))
+app.use(express.urlencoded({extended: true}))
 app.get('/', (req, res) =>{
     // console.log(req.url)
     res.send('<h1 style="color: red">Hello World</h1>')
