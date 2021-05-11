@@ -1,0 +1,14 @@
+In Node.js , global, process and module exist but window(BOM) and DOM does not
+whereas In browser, BOM and DOM exist but global,process and module does not
+
+if( typeof window !== 'undefined'){
+console.log('running in browser')
+}else{
+console.log('running in node')
+}
+
+
+Both node and browser (latest version) have "globalThis" .. The most outer scope and used by both browser and node
+In node                                 In Browser
+globalThis == global                    globalThis == window
+
