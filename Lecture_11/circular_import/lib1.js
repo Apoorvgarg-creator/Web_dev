@@ -1,3 +1,4 @@
+// Non-working code ==>
 // const  lib2 = require('./lib2')
 //
 // module.exports = {
@@ -7,6 +8,9 @@
 
 // Result of above code --> Output1.png
 
-
-module.exports.a = 10
+// Working code -->
 module.exports.lib2 = require('./lib2')
+module.exports.a = 10
+// module.exports.lib2 = require('./lib2')
+
+console.log('lib1:: module.exports',module.exports)
