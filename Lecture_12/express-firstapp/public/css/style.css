@@ -1,0 +1,17 @@
+h1 {
+    padding: auto;
+    font-size: 40pt;
+    font-family: sans-serif;
+    background-color: aqua;
+
+}
+
+a {
+    font-style: italic;
+
+}
+a:hover {
+    font-style: bold ;
+    font-size: 20pt;
+    background-color: brown;
+}

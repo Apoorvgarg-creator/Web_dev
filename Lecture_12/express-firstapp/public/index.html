@@ -4,10 +4,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
     <h1>Public pages</h1>
     <a href="./a.html">a</a>
     <a href="./b.html">b</a>
+
+    <form action="/hello" method="GET">
+        <input name="user" type="text" placeholder="Username">
+        <button type="submit">submit</button>
+    </form>
+    
+    <h3> Google search </h3>
+    <form method="GET">
+        <input name="g" type="text" placeholder="search query">
+        <button  formaction="https://google.com/search" type="submit">Google</button>
+        <button  formaction="https://bing.com/search" type="submit">bing</button>
+    </form>
 </body>
 </html>
