@@ -1,0 +1,3 @@
+Why urlencoded and json are used ?
+What do they do ?
+Why they are specifically used for post methods ?
