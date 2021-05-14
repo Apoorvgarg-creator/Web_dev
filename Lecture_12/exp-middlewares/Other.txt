@@ -1,0 +1,32 @@
+1. Difference between encoding and encryption
+Diffle-hellman key exchange 
+encryption techniques --> jumbling and fumbling the words
+encoding techniques ->  UTF - 8 and ASCII
+
+Encoding (basically) , technique to change the human understandable language to computer undestandable language (bits) to transmit the data over a media.
+Encryption (basically) , ( protecting the data ) convert the data into non-explainable data for normal person
+ 
+Base64 encoder and decoder
+
+
+
+Function exist in browser -->
+atob()  // converts a encoded data (Base64) and converts into understandable string
+
+btoa() // encodes the string with base64
+
+
+// Very dangerous function: eval is evil 
+// SQL injection
+// Never use eval() in production -->
+eval()
+
+
+
+/// Url escaping
+
+
+// Client side -->
+Raw data  --> encode --> encrypt
+// server side -->
+decrypt --> decode --> Raw data
