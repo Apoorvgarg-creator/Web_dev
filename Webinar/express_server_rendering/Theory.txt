@@ -1,0 +1,22 @@
+Earlier what we were doing was,
+we had a frontend and backend,
+frontend was rendering on the browser 
+and whenever a client made a request
+ an Api call was made and data was fetched
+
+
+ Now , in server side rendering , when a request is made,
+ server sends a html page as a response
+ Api part not required
+
+A template engine enables you to use 
+static template files in your application. At runtime, the template 
+engine replaces variables in a 
+template file with actual values, and 
+transforms the template into an 
+HTML file sent to the client. 
+This approach makes it easier to
+ design an HTML page.
+ Some popular template engines that work with Express 
+ are Pug, hbs, Mustache, and EJS.
+ by default , jade
