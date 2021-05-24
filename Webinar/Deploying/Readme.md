@@ -34,3 +34,17 @@ https://en.wikipedia.org/wiki/Bare-metal_server
 
 ### static Hosting 
     For ex: Github
+
+
+## Example -1 
+Static Hosting
+Make a simple index.html
+```shell
+$ git init
+```
+Make a github repository and update the origin
+```shell
+hub create Username/Reponame
+```
+
+
