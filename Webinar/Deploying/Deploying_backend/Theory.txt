@@ -1,0 +1,37 @@
+# Step-1
+* Install Heroku CLI
+-> $
+
+* Login to Heroku (CLI)
+After logging into heroku in CLI
+Go to the folder where source code is available
+cd path
+
+?? Note ?? : When deploying separate git repo must be maintained !!
+
+After pushing the files into remote repository !!
+
+Write this command on shell
+```shell
+$ heroku apps:create deploy-sample-nodejs
+```
+Output -->
+```shell
+Creating ⬢ sample-deploy-nodejs... done
+https://sample-deploy-nodejs.herokuapp.com/ | https://git.heroku.com/sample-deploy-nodejs.git
+```
+
+```shell
+$ git remote
+```
+```shell
+$ git remote -v
+```
+
+```shell
+$ git push heroku master
+```
+```shell
+$ heroku logs
+```
+
