@@ -5,3 +5,4 @@ Todo list: August plan 2021 - dec plan 2021
 4. passport
 5. Three.js
 6. React 
+7. connect-redis
