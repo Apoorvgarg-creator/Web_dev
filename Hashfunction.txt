@@ -16,7 +16,7 @@ total possible md5 output -> 2^32 !!
 so if we take x_1, x_2 , ... , x_(2^32 + 1) inputs 
 for a x_i and x_j there will be y_i = y_j // hash collision
 
-for small hash function, there is a rainbow table
+for small hash function ( < 2^128), there is a rainbow table
 Rainbow table -
 A rainbow table is a precomputed table for caching the output of cryptographic hash functions, usually for cracking password hashes. Tables are usually used in recovering a key derivation function (or credit card numbers, etc.) up to a certain length consisting of a limited set of characters. It is a practical example of a space–time tradeoff, using less computer processing time and more storage than a brute-force attack which calculates a hash on every attempt, but more processing time and less storage than a simple key derivation function with one entry per hash. Use of a key derivation that employs a salt makes this attack infeasible.
 {https://en.wikipedia.org/wiki/Rainbow_table}
