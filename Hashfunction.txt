@@ -2,6 +2,7 @@ md5 hash function -
 The MD5 message-digest algorithm is a widely used hash function producing a 128-bit hash value.
 Hash function are irreversible.
 Try it yourself! - https://www.md5hashgenerator.com/
+https://crypto.stackexchange.com/questions/58214/how-can-hashes-be-unique-if-they-are-limited-in-number 
 
 x1 -> h(x1) -> y1
 we cannot find x1 by feeding y1. Inverse not possible !!!
@@ -9,3 +10,6 @@ x2 -> h(x2) -> y2
 x1-x2 = Δx
 y1-y2 = Δy
 There should be no way in which we can find a correlation between Δx & Δy.
+
+md5 -> 128 bits
+total possible md5 output -> 2^128 !!
