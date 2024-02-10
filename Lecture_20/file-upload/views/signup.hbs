@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up!</title>
+</head>
+<body>
+    <h1>Welcome !</h1>
+    <h2> Sign Up</h2>
+    <form action="/signup" method="POST" enctype="multipart/form-data">
+        <label for="username"><br></label><input type="text" name="username" id="username" placeholder="Enter Username"><br>
+        <label for="email"><br></label><input type="email" name="email" id="email" placeholder="example@domain"><br>
+        <label for="password"><br></label><input type="password" name="password" id="password" placeholder="*******"><br>
+        <span>upload profile photo</span>
+        <input type="file" name="avatar" id="avatar" placeholder="profile photo"><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

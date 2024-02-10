@@ -5,29 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4f1c944-1879-4ddc-8cdf-de89c4b95bd4" name="Default Changelist" comment="sql query to get started with the database">
-      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/batchCodegen/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/batchCodegen/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/batchCodegen/src/connection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/batchCodegen/src/models.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/getting_started/create_model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/getting_started/insert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/getting_started/model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sequelize_TUT/getting_started/query.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Webinar/Promise_NodejsIntro/Assignment_1/Copy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Webinar/Promise_NodejsIntro/Assignment_1/Data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mongobasics/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/Mongobasics/data/WiredTiger.turtle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mongobasics/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/Mongobasics/data/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mongobasics/data/diagnostic.data/metrics.2021-04-28T19-05-04Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/Mongobasics/data/diagnostic.data/metrics.2021-04-28T19-05-04Z-00000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mongobasics/data/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/Mongobasics/data/diagnostic.data/metrics.interim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mongobasics/data/index-6--6801421162610855509.wt" beforeDir="false" afterPath="$PROJECT_DIR$/Mongobasics/data/index-6--6801421162610855509.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mongobasics/data/journal/WiredTigerLog.0000000001" beforeDir="false" afterPath="$PROJECT_DIR$/Mongobasics/data/journal/WiredTigerLog.0000000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sequelize_TUT/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Sequelize_TUT/getting_started/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sequelize_TUT/connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sequelize_TUT/getting_started/connect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CDN def.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashfunction.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Learn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture_20/file-upload/images/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture_20/file-upload/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture_20/file-upload/uploads/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gittut.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Socket.io_Tut/public/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Socket.io_Tut/public/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webinar/express-routing_AJAX/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/Webinar/express-routing_AJAX/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +57,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -92,7 +79,7 @@
       <recent name="$PROJECT_DIR$/Lecture_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.connect.js">
+  <component name="RunManager" selected="Node.js.helloSayerAsyncAwait.js">
     <configuration name="Copy.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Webinar/Promise_NodejsIntro/Assignment_1/Copy.js" working-dir="$PROJECT_DIR$/Webinar/Promise_NodejsIntro/Assignment_1">
       <method v="2" />
     </configuration>
@@ -102,7 +89,7 @@
     <configuration name="create_model.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Sequelize_TUT/getting_started/create_model.js" working-dir="$PROJECT_DIR$/Sequelize_TUT">
       <method v="2" />
     </configuration>
-    <configuration name="promise_all.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Webinar/Promise_NodejsIntro/promise_all.js" working-dir="$PROJECT_DIR$/Webinar/Promise_NodejsIntro">
+    <configuration name="helloSayerAsyncAwait.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS_Concurrency/helloSayerAsyncAwait.js" working-dir="$PROJECT_DIR$/JS_Concurrency">
       <method v="2" />
     </configuration>
     <configuration name="query.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Sequelize_TUT/getting_started/query.js" working-dir="$PROJECT_DIR$/Sequelize_TUT">
@@ -110,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.helloSayerAsyncAwait.js" />
         <item itemvalue="Node.js.connect.js" />
         <item itemvalue="Node.js.query.js" />
         <item itemvalue="Node.js.create_model.js" />
         <item itemvalue="Node.js.Copy.js" />
-        <item itemvalue="Node.js.promise_all.js" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +158,12 @@
       <workItem from="1619962256265" duration="3126000" />
       <workItem from="1620048541607" duration="78000" />
       <workItem from="1620048709004" duration="22000" />
+      <workItem from="1630817698095" duration="1252000" />
+      <workItem from="1630829284110" duration="2229000" />
+      <workItem from="1630837702210" duration="701000" />
+      <workItem from="1630839141499" duration="41000" />
+      <workItem from="1632573571232" duration="154000" />
+      <workItem from="1635787128758" duration="1979000" />
     </task>
     <task id="LOCAL-00056" summary="make a object with the help of &quot;new&quot; keyword out of function">
       <created>1619210864675</created>

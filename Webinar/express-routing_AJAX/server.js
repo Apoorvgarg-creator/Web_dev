@@ -11,6 +11,6 @@ srv.get('/hello', function (req,res){
 srv.use('/public',express.static(__dirname + "/public"))
 
 srv.use('/todos',todoRoute)
-srv.listen(4444, () => {
-    console.log('Server started on http://localhost:4444')
+srv.listen(4544, () => {
+    console.log('Server started on http://localhost:4544')
 })

@@ -1,0 +1,8 @@
+Todo list: August plan 2021 - dec plan 2021
+1. Next.js
+2. Vue.js
+3. electron.js
+4. passport
+5. Three.js
+6. React 
+7. connect-redis

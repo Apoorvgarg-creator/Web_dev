@@ -1,0 +1,21 @@
+## Push local files to remote repo thorugh CLI
+Step1: Creating a new repository
+Step2: cd directoryname
+Step3: git init
+Step4: git add 
+Step5(optional): git status
+Step6: git commit -m 'your message'
+Step7: git remote add origin 'repo.url'
+Step8: git push -u origin master
+
+## PULL Request through Command Line
+1. Fork the Repository.
+2. Make a new branch. 
+  git checkout -b 'branch_name'
+3. Adding and Committing a file to the repository
+4. git push origin 'branch_name'
+5. git pull-request
+
+
+
+For more info : https://www.datacamp.com/community/tutorials/git-push-pull
